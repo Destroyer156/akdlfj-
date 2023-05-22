@@ -1,0 +1,23 @@
+import objectdraw.*;
+import java.awt.*;
+public class StickFigure
+{
+    private FramedOval head;
+    private Line body,leftArm,rightArm,leftLeg,rightLeg;
+    private int bodyX;
+    private int neckY;
+    private int armpitY;
+    private int bodyEnd;
+    private int feetY;
+    private int armsY; //
+    private int leftX;
+    private int rightX;
+    public StickFigure(int x, int y, int h, DrawingCanvas canvas)
+    {
+        head = new FramedOval(x,y,h,DrawingCanvas, canvas);
+        body = new Line
+        leftArm = new Line
+        rightArm = new Line
+        leftLeg = new Line
+        rightLeg = new Line
+    }
